@@ -1,0 +1,23 @@
+.contact-form{
+    font-size: 25px;
+}
+
+.contact-form__h2{
+    /* tamanio de la letra */
+    font-size: 2em; 
+    /* tipografia */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* tamanio de altura del contenedor del texto (no del contenedor padre, sino la cada contenedora ue contiene el texto) */
+    line-height: 2;
+    /* grosor de la tipografia */
+    font-weight: bold;
+    /* estilo de tipografia */
+    font-style: italic;
+    /* transformar de mayuscula a minuscula */
+    text-transform:lowercase;
+    /* decora el texto */
+    text-decoration:underline;
+    /* sombra al texto */
+    text-shadow: 4px 4px 4px red;
+
+}

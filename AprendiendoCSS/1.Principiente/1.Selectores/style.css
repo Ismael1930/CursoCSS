@@ -1,0 +1,58 @@
+
+
+/* Estructura o sintaxis */
+
+/* selector {
+    propiedad: valor;
+} */
+
+/* diferentes tipos de selectores */
+
+/* Universal - [*] (selecciona todos los elementos) */
+
+    *{
+        color: red;
+    } 
+
+     /* deberiamos ver todo en pantalla de color rojo */
+
+
+/* de tipo - [<etiqueta>] (selecciona por el nombre de la etiqueta de html) */
+
+h1{
+    color: black;
+}
+
+/* clases [.nombreClase] (selecciona el elemento que tenga la clase) */
+
+.titulo-h2{
+    color: blue;
+}
+
+/* Id - [nombreId] (por convencion el Id debe ser un nombre unico) */
+
+#miId{
+    color: green;
+}
+
+/* por atributo - {[nombreAtrtibuto="valor"]} (cuando se sellecciona por atriuto se debe usar corchetes) */
+
+[miAtributo="valor"]{
+    color:yellow;
+} 
+
+
+/* descendientes [contenedor-etiquetaHija] (tambien se puede hacer con las clases) */
+
+h3 p{
+    color:blue;
+}
+
+/* pseudo-clases [etiqueta:pseudoClass] (las pseudo clases se crean despues de un evento)*/
+
+.parrafo:hover{
+    color: aqua;
+}
+
+/* cuando el mouse pase por encima del elemento cambiara el color */
+

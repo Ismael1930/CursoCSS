@@ -1,0 +1,25 @@
+/* CSS:Cascading Style Sheets , hojas de estilo en cascada, es decir que se va a renderizar el diseno que este al fina ej: */
+
+p{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+
+/* se cumple la cascada, el ultimo es el que queda */
+
+/* Gerarquia de elementos */
+
+    /* 1- !important
+    2- stilos en linea 
+    3- identificadores o Id
+    4- clases, pseudo-clases, atributos
+    5- estiquetas o elementos
+    6- pseudo-elementos (como el la etiqueta a,b,i) */
+

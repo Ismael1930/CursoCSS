@@ -1,0 +1,9 @@
+/* medidas fijas o absolutas: siempre tendran un tamano fijo */
+
+.contact-form{
+    font-size: 50px;
+}
+
+td{
+    border: 1px solid black
+}
