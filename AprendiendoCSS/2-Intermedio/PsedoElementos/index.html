@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>seudoElementos</title>
+</head>
+<body>
+
+    <p>hola mundo</p>
+
+    <!-- <p>
+        son elementos qe no se muestran en el Dom. 
+        
+Selector	Example	Example description
+::after	        p::after	            Insert something after the content of each <p> element
+::before	    p::before	            Insert something before the content of each <p> element
+::first-letter	p::first-letter	        Selects the first letter of each <p> element
+::first-line	p::first-line	        Selects the first line of each <p> element
+::marker	    p::marker	            Selects the markers of list items
+::selection	    p::selection	        Selects the portion of an element that is selected by a user
+    </p> -->
+
+    <!-- ::firs-line: sno funciona en elementos inline, modifica la primera linea del elemento.
+         ::first-letter: modifica la primera letra.
+         estos dos seudo elementos si forman parte del dom
+        ::placeholder: modifica el placeholder de los inputs
+        ::selection: modifica lo que selecciona el mouse
+        ::after: inserta cualquier cosa despues del contenido
+        ::before: inserta cualquier cosa antes del contenido
+
+    -->
+
+    <h1>pseudo Clases</h1>
+
+    <p>son iguales a los eventos:
+        :hover = al pasar el mouse por encima ocurre el evento.
+        :link = cambia las propiedades de los links
+        :active = al mantener click al elemento cambia las propiedades
+        :focus = se usa mas en inputs, cuando el foco del mouse este en el elemento cambiara sus propiedades.
+        :lang = es una funcionque selecciona por lenguaje del contenido de un elemento.
+    </p>
+
+    <h1>Object:fit</h1>
+
+    <p>
+        se usa para manejar los tamanos de la imagenes
+        sus propiedades son:
+        contain: la resolucion se centra al contenedor y sobran los bordes, 
+        cover:la imgen se pone del tamano del contenedor, rellena el contenedor
+        none: actua como la imagen original, el tamano por defecto de la imagen, 
+        Scale-Down: elije la obcion mas pequena entre none y contain
+    </p>
+
+    <h1>Object:position</h1>
+
+    <p>
+        mueve la posicion de la imagen en el contenedor.
+        recibe top,bottom ,left, rigth y medidas
+    </p>
+
+    <h1>Cursor</h1>
+
+    <p>
+        para cambar el Cursor
+        recibe pointer: lo cambia a la manito que seleccciona
+        row-resize: el icono para cambiar tamao de filas
+        y muchos mas, pede investigar en google
+    </p>
+
+</body>
+</html>

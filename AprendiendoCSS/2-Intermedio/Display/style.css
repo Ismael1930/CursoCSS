@@ -1,0 +1,24 @@
+/* Display: va a cambiar el comportamiento de las cajas  */
+/* las propiedades basicas son: Block,Inline, Inline-Block  */
+/* block: ocuoan todo el ancho del vp aunqie el contenido sea pequeno 
+    inline: ocupa solo el tamano del contenido, solo se usa para texto matormente, a estos no le puede modificar el tamano
+    inline-block: acomoda los elemetos de forma horizontal
+
+*/
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid red;
+    background: yellow;
+    display: inline-block;
+}
+
+/* Overflow: (x,y)significa sobrante  y permite configrar el comportamento del contenido sobrante*/
+    /* scroll: le pone scroll al elemento 
+        auto: verifica donde necesita scroll y lo pone
+        hidden: oculto
+    */
+
+/* Float:   sirve pra ubivar elementos, recibe left,rigth,none, inherit. ya casi quedo en desuso por grid y flex , todavia es util para poner imagenes cerca del texto en ese formato donde el texto envuelve la imagen*/
+

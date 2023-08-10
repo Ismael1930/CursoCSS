@@ -1,0 +1,7 @@
+p::before{
+    content: "estoy antes ";
+}
+
+p::after{
+    content: " estoy despues";
+}
