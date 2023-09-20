@@ -1,0 +1,88 @@
+.flex-container {
+    display: flex;
+}
+
+/* PROPIEDADES PARA LOS FLEX CONTAINER */
+
+/* cuando un contenedor adquiere la propiedad flex. los hijos directos del contenedor seran flex, flex siempre tratara de mantener la misma altura, solo cambiara el ancho del contenido */
+/* .flex-item {
+    background-color: #248;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+} */
+
+
+/* los items siempre seran flexibles an el eje x, para cambiar la direccion del eje se usa 
+{flex-direction: para cambiar la direccion del main axis
+    row: valor por defecto, la direccion es de fila.
+    column: los items se ordenaran como una columna.
+    row-reverse: se ordena como fila pero invierte la direccion del eje x.
+    row-column: se ordena como columna pero invierte la direccion del eje y.
+} */
+
+/* flex-wrap: {
+    wrap: los item flexibles no cambiaran su tamaño y si el  VP cambia el item pasara hacia abajo.
+    nowrap: se comporta por default los items se encojen si se encoje el vp.
+    wrap-reverse: igual que wrap pero los items pasan hacia arriba.
+} */
+
+/* flex-flow: ebrevia flex-direction y flex-wrap. ej: {
+        column wrap
+} */
+
+/* justify-content: justifica el eje x {
+    flex-start;
+    flex-end: Alinear items desde el final
+    center: Alinear items en el centro 
+    space-between: Distribuir items uniformemente El primer item al inicio, el último al final 
+    space-around:Distribuir items uniformemente Los items tienen el mismo espacio a su alrededor  y el doble entre cada item.
+    space-evenly: el mismo espacio en los laterales y el centro.
+}  */
+
+/* aling-items: igual que justify-content pero en el eje y. {
+    /* Palabras Clave Basicas 
+ normal: 
+ stretch: se estera el items al tamañ del eje x
+/* Alineamiento posicional */
+/* align-items no considera los valores de "left" o "right"  
+ center:  /* Agrupa los elementos alrededor del centro 
+ start:  /* Agrupa los elementos desde el inicio 
+ end:  /* Agrupa los elementos desde el final 
+ flex-start:  /* Agrupa los elementos flex desde el incio 
+ flex-end:  /* Agrupa los elementos flex desde el final 
+ self-start: 
+ self-end: 
+/* Alineamiento de Linea Base 
+ baseline: 
+ first baseline: 
+ last baseline:  /* Alineamiento de desborde (solamente para alineamiento posicional) 
+ safe center: 
+ unsafe center: 
+
+/* aling-content: igual que aling-items pero se usa cuando hay varias lineas de items  */
+
+/* PROPIEDADES FLEX ITEM  {
+    margin: si el item es flex, margin sirve para direccionar el valor auto centrara el item de forma vertical y horizontal.
+    Flex-grow: espacio asignado + sobrante (Main Axis).
+    Flex-shirnk: Espacio que "cede" (Main Axis). como el contrario de flex-grow
+    Flex-basis: es como el ancho, pero con flex.
+    Flex: agrupa grow,shirnk y basis
+    order: es como el z-index , pero en el eje en que apunta el mainn axis ( eje x ).
+
+}*/
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
